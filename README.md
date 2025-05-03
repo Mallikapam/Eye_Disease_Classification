@@ -2,8 +2,13 @@
 
 This project uses deep learning to classify retinal images and detect eye diseases such as cataracts and other conditions.
 
-## Installation
 
+## Cloning
+```bash
+git clone --recurse-submodules https://github.com/Mallikapam/Eye_Disease_Classification.git
+```
+
+## Installation
 ```bash
 python -m venv retina-env
 source retina-env/bin/activate 
