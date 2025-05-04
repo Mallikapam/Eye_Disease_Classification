@@ -24,12 +24,12 @@ python eye_disease_analysis.py
 ## Dataset
 Images are stored in the following directory structure:
 
-retina_dataset/
-├── dataset/
-│ ├── 0_cataract/
-│ ├── 1_normal/
-│ ├── 2_glaucoma/
-│ └── 3_retina_disease/
+retina_dataset \
+├── dataset \
+│ ├── 0_cataract \
+│ ├── 1_normal \
+│ ├── 2_glaucoma \
+│ └── 3_retina_disease 
 
 ## Model Architecture
 
