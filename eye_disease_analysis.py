@@ -263,7 +263,7 @@ def check_accuracy(loader, model, dataset_type):
         accuracy = float(num_correct) / float(num_samples) * 100
         print(f"Got {num_correct}/{num_samples} with accuracy {accuracy:.2f}%")
     
-    model.train()  # Set the model back to training mode
+    model.train()  
 
 # Final accuracy check on training and test sets
 check_accuracy(train_loader, model, 'training')
